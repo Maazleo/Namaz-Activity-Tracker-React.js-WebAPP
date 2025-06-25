@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Paper, ToggleButtonGroup, ToggleButton } from '@mui/material';
 import { LocalizationProvider, DatePicker } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import { getPrayerData } from '../utils/prayerData';
 
 const prayers = ['Fajr', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'];
 const PRAYER_OPTIONS = ['Jamaat', 'Alone', 'Missed'];

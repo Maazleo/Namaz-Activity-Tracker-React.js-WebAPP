@@ -41,7 +41,6 @@ const Settings = ({ darkMode, onToggleDarkMode }) => {
   const [accent, setAccent] = useState(() => localStorage.getItem('accent') || '#6ee7b7');
   const [privacyOpen, setPrivacyOpen] = useState(false);
   const [snackbar, setSnackbar] = useState({ open: false, message: '', severity: 'success' });
-  const [location, setLocation] = useState(null);
   const [city, setCity] = useState('');
   const [geoTimes, setGeoTimes] = useState(null);
   const [loadingGeo, setLoadingGeo] = useState(false);
@@ -150,7 +149,6 @@ const Settings = ({ darkMode, onToggleDarkMode }) => {
     }
     navigator.geolocation.getCurrentPosition(async (pos) => {
       const { latitude, longitude } = pos.coords;
-      setLocation({ latitude, longitude });
       // Get city name
       try {
         const geoRes = await axios.get(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`);

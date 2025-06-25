@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Typography, Paper, Button, MenuItem, TextField, Stack, Snackbar, Alert } from '@mui/material';
-import { getPrayerData, getPrayerStats } from '../utils/prayerData';
+import { getPrayerStats } from '../utils/prayerData';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 

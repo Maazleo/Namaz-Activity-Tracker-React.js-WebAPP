@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, Paper, Chip, Stack, Card, CardContent, LinearProgress, Avatar, Alert } from '@mui/material';
+import { Box, Typography, Paper, Chip, Stack, LinearProgress, Avatar, Alert } from '@mui/material';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import StarIcon from '@mui/icons-material/Star';
@@ -19,10 +19,8 @@ function getGamificationData() {
   let streak = 0;
   let maxStreak = 0;
   let badges = [];
-  let lastDayAll = false;
   let currentStreak = 0;
   let firstPrayer = false;
-  let days = 0;
   for (let i = 0; i < 365; i++) {
     const d = new Date();
     d.setDate(d.getDate() - i);
@@ -30,7 +28,6 @@ function getGamificationData() {
     const entry = JSON.parse(localStorage.getItem(key) || '{}');
     if (Object.keys(entry.statuses || {}).length > 0) {
       firstPrayer = true;
-      days++;
     }
     let allOffered = prayers.every(p => ['Jamaat', 'Alone'].includes((entry.statuses || {})[p]));
     let offeredCount = prayers.filter(p => ['Jamaat', 'Alone'].includes((entry.statuses || {})[p])).length;
