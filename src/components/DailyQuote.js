@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, Paper, IconButton, Stack, Button, Select, MenuItem, FormControl, InputLabel, Tooltip } from '@mui/material';
+import { Typography, Paper, IconButton, Stack, Button, Select, MenuItem, FormControl, InputLabel, Tooltip } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ShareIcon from '@mui/icons-material/Share';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import axios from 'axios';

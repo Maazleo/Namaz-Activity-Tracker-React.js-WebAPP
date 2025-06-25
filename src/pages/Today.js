@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Box, Typography, Paper, ToggleButtonGroup, ToggleButton, TextField, Card, CardContent, Stack, Fade, Button, CircularProgress, Snackbar, Alert, FormControlLabel, Switch } from '@mui/material';
+import { Box, Typography, Paper, ToggleButtonGroup, ToggleButton, TextField, Card, CardContent, Stack, Fade, Snackbar, Alert, FormControlLabel, Switch, CircularProgress } from '@mui/material';
 import WbTwilightIcon from '@mui/icons-material/WbTwilight';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import FilterDramaIcon from '@mui/icons-material/FilterDrama';
@@ -7,7 +7,7 @@ import NightsStayIcon from '@mui/icons-material/NightsStay';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import axios from 'axios';
 import { getPrayerTimes } from '../utils/prayerTimeApi';
-import { getPrayerData, getStreak } from '../utils/prayerData';
+import { getPrayerData } from '../utils/prayerData';
 import DailyQuote from '../components/DailyQuote';
 
 const prayers = [

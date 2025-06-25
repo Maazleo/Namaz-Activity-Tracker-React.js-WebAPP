@@ -105,7 +105,7 @@ function App() {
         },
       },
     },
-  }), [darkMode]);
+  }), []);
 
   const handleTabChange = (event, newValue) => {
     setTab(newValue);
