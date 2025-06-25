@@ -1,6 +1,6 @@
 # 🕌 Namaz Activity Tracker
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-success?style=for-the-badge&logo=vercel)](https://your-demo-link.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-success?style=for-the-badge&logo=vercel)](https://trackyournamaz.netlify.app/)
 
 A modern, feature-rich React web app to help you track your daily prayers, view progress, get smart suggestions, and stay motivated on your spiritual journey. 🌙✨
 
@@ -22,14 +22,6 @@ A modern, feature-rich React web app to help you track your daily prayers, view 
 - **🔒 100% Private:** All data is stored locally in your browser.
 
 ---
-
-## 📸 Screenshots
-
-> _Add your screenshots here!_
-
-| Home (Today) | Progress | Masjid Finder |
-|:---:|:---:|:---:|
-| ![](./screenshots/today.png) | ![](./screenshots/progress.png) | ![](./screenshots/masjid.png) |
 
 ---
 
