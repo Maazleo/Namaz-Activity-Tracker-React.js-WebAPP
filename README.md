@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🕌 Namaz Activity Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-success?style=for-the-badge&logo=vercel)](https://your-demo-link.com)
 
-## Available Scripts
+A modern, feature-rich React web app to help you track your daily prayers, view progress, get smart suggestions, and stay motivated on your spiritual journey. 🌙✨
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **📅 Daily Tracker:** Mark each prayer (Fajr, Dhuhr, Asr, Maghrib, Isha) as Jamaat, Alone, or Missed. See today's prayer times for your city.
+- **🕰️ Location-Based Prayer Times:** Auto-detects your city and fetches accurate prayer times from an Islamic API.
+- **🔔 Prayer Time Notifications:** Get system/in-app notifications 10 minutes before each prayer (toggleable).
+- **💡 Smart Suggestions:** Personalized tips based on your habits (e.g., "You often miss Fajr — try sleeping by 11 PM").
+- **📈 Progress & Gamification:** View weekly/monthly stats, streaks, points, badges, and motivational levels.
+- **🧾 Printable Reports:** Download/print a beautiful PDF of your weekly/monthly prayer activity (with signature & quote).
+- **🧭 Qibla Compass:** (Planned) See the Qibla direction using your device's compass and location.
+- **🕌 Masjid Finder:** Find nearby masjids on a map, see details, and add Jamaat timings.
+- **📖 Daily Islamic Quote:** Get a new Ayah, Hadith, or Zekr every day. Share or bookmark your favorites.
+- **🌙 Dark Mode & Theme Accent:** Modern, calming green theme with dark/light mode and accent color picker.
+- **🌐 Multi-language:** English, Urdu (easily extendable).
+- **🔒 100% Private:** All data is stored locally in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📸 Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> _Add your screenshots here!_
 
-### `npm run build`
+| Home (Today) | Progress | Masjid Finder |
+|:---:|:---:|:---:|
+| ![](./screenshots/today.png) | ![](./screenshots/progress.png) | ![](./screenshots/masjid.png) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/namaz-activity-tracker.git
+   cd namaz-activity-tracker
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the app:**
+   ```bash
+   npm start
+   ```
+4. **Open in browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/)
+- [Material-UI (MUI)](https://mui.com/)
+- [Recharts](https://recharts.org/)
+- [react-leaflet](https://react-leaflet.js.org/) (Masjid Finder)
+- [jsPDF](https://github.com/parallax/jsPDF) (PDF Reports)
+- [Axios](https://axios-http.com/)
+- [OpenStreetMap](https://www.openstreetmap.org/) APIs
+- [AlAdhan](https://aladhan.com/prayer-times-api) & [AlQuran Cloud](https://alquran.cloud/api) APIs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✨ Modern Features
 
-## Learn More
+- **Responsive, mobile-friendly UI**
+- **Drawer navigation with sections**
+- **Profile with avatar, goals, and reset**
+- **Settings: notification sound, accent color, privacy, language**
+- **Masjid Finder with map and list**
+- **Gamification: points, badges, levels, streak reminders**
+- **Smart suggestions and motivational tips**
+- **Daily Islamic quote with share/bookmark**
+- **Location-based prayer times and notifications**
+- **Data export/import (JSON)**
+- **Printable PDF reports**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🙏 Contributing
 
-### Code Splitting
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[MIT](LICENSE)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> _May Allah accept your prayers and efforts!_
